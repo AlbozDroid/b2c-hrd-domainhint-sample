@@ -1,7 +1,13 @@
-<TrustFrameworkPolicy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06" PolicySchemaVersion="0.3.0.0" TenantId="spheraidentitypoc.onmicrosoft.com" PolicyId="B2C_1A_Alboz_susi_public" PublicPolicyUri="http://spheraidentitypoc.onmicrosoft.com/B2C_1A_Alboz_susi_public" TenantObjectId="47934208-b885-4162-b525-c6fcc24bef56">
+<TrustFrameworkPolicy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+                      xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06" 
+                      PolicySchemaVersion="0.3.0.0" 
+                      TenantId="{YourTenant}.onmicrosoft.com" 
+                      PolicyId="B2C_1A_Alboz_susi_public" 
+                      PublicPolicyUri="http://{YourTenant}.onmicrosoft.com/B2C_1A_Alboz_susi_public" 
+                      TenantObjectId="{YourTenant_ObjectId}">
     <BasePolicy>
-        <TenantId>spheraidentitypoc.onmicrosoft.com</TenantId>
-        <PolicyId>B2C_1A_Alboz_TrustFrameworkExtensions</PolicyId>
+        <TenantId>{YourTenant}.onmicrosoft.com</TenantId>
+        <PolicyId>TrustFrameworkExtensions</PolicyId>
     </BasePolicy>
     <BuildingBlocks>
         <ClaimsSchema>
