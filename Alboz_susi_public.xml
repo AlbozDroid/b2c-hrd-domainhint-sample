@@ -127,7 +127,7 @@
         <ClaimsProvider>
             <DisplayName>Create Identity Providers Collection</DisplayName>
             <TechnicalProfiles>
-                <TechnicalProfile Id="CreateidentityProvidersCollectionLogic">
+                <TechnicalProfile Id="CreateIdentityProvidersCollectionLogic">
                     <DisplayName>Unlink Microsoft</DisplayName>
                     <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.ClaimsTransformationProtocolProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
                     <Metadata>
@@ -334,7 +334,7 @@
                 </Precondition>
               </Preconditions>
               <ClaimsExchanges>
-                <ClaimsExchange Id="IsKnownCustomerLogic" TechnicalProfileReferenceId="CreateidentityProvidersCollectionLogic" />
+                <ClaimsExchange Id="IsKnownCustomerLogic" TechnicalProfileReferenceId="CreateIdentityProvidersCollectionLogic" />
               </ClaimsExchanges>
             </OrchestrationStep>
     
